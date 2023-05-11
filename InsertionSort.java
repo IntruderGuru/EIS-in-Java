@@ -92,7 +92,6 @@ public class InsertionSort {
         return arr;
     }
 
-    // new comment
     // Obliczanie średniego czasu wykonania dla sortowania z progiem i tradycyjnego
     // sortowania
     // Dla każdej próby kopiuje tablicę, sortuje ją używając wybranego algorytmu,
