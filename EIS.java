@@ -4,7 +4,7 @@
 import java.util.Arrays;
 import java.util.Random;
 
-public class InsertionSort {
+public class EIS {
 
     // Stałe konfiguracyjne
     // NUM_SIZES: Liczba rozmiarów tablic użytych do testów wydajności
