@@ -62,7 +62,7 @@ public class EIS {
                 // jeden w prawo
                 System.arraycopy(arr, j, arr, j + 1, i - j);
                 // Wstawiamy element na znalezionej pozycji
-                // Uwaga dlaczego nie swap?
+                // Uwaga: Dlaczego nie swap?
                 // Jeśli chodzi o porównanie prędkości tych dwóch operacji, to zależy to od
                 // wielu czynników, takich jak liczba elementów do skopiowania lub zamienienia
                 // miejscami oraz specyfika danej implementacji. W ogólności jednak, operacja
