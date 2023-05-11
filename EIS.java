@@ -62,6 +62,7 @@ public class EIS {
                 // jeden w prawo
                 System.arraycopy(arr, j, arr, j + 1, i - j);
                 // Wstawiamy element na znalezionej pozycji
+                arr[j] = temp;
                 // Uwaga: Dlaczego nie swap?
                 // Jeśli chodzi o porównanie prędkości tych dwóch operacji, to zależy to od
                 // wielu czynników, takich jak liczba elementów do skopiowania lub zamienienia
@@ -70,7 +71,7 @@ public class EIS {
                 // (przypisania), podczas gdy System.arraycopy() musi kopiować każdy element
                 // indywidualnie. Ale jeżeli chodzi o przesuwanie większych fragmentów danych,
                 // System.arraycopy() może okazać się szybsze.
-                arr[j] = temp;
+
             } else {
                 // Jeśli element nie jest mniejszy od elementu w pozycji i / threshold,
                 // używamy standardowego podejścia sortowania przez wstawianie
